@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mood Music & Quote Generator</title>
+  <link rel="stylesheet" href="project2.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Mood Music & Quote Generator</h1>
+
+    <div class="controls">
+      <label for="mood">Select your mood:</label>
+      <select id="mood">
+        <option value="happy">Happy 😊</option>
+        <option value="sad">Sad 😢</option>
+        <option value="motivated">Motivated 💪</option>
+        <option value="relaxed">Relaxed 🌿</option>
+      </select>
+      <button id="generateBtn">Generate</button>
+    </div>
+
+    <div class="quote">
+      <h2>Quote</h2>
+      <p id="quote">Click Generate to get a quote!</p>
+    </div>
+
+    <div class="music">
+      <h2>Music Suggestion</h2>
+      <div id="musicContainer">
+        <p>No song selected yet.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="project2.js"></script>
+</body>
+</html>
